@@ -5,6 +5,7 @@
 package gui;
 
 import com.formdev.flatlaf.FlatDarkLaf;
+import com.formdev.flatlaf.FlatLightLaf;
 import java.awt.Color;
 
 /**
@@ -57,7 +58,7 @@ public class Home extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
-        FlatDarkLaf.setup();
+        FlatLightLaf.setup();
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
